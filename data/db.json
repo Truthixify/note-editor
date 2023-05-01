@@ -1,0 +1,53 @@
+{
+  "notes": [
+    {
+      "title": "Lyrics",
+      "content": "Juice wrld",
+      "category": "personal",
+      "date": "29/3/2022",
+      "id": 1
+    },
+    {
+      "title": "Class notes",
+      "content": "fourier series",
+      "category": "study",
+      "date": "29/3/2022",
+      "id": 2
+    },
+    {
+      "title": "Office project",
+      "content": "office work",
+      "category": "work",
+      "date": "29/3/2022",
+      "id": 3
+    },
+    {
+      "title": "Love letter",
+      "content": "Love for Angela",
+      "category": "other",
+      "date": "29/3/2022",
+      "id": 4
+    },
+    {
+      "title": "Gym",
+      "content": "On saturdays",
+      "category": "other",
+      "date": "29/3/2022",
+      "id": 5
+    },
+    {
+      "title": "Udemy notes",
+      "content": "Courses on programming",
+      "category": "study",
+      "date": "29/3/2022",
+      "id": 6
+    },
+    {
+      "title": "letter to you",
+      "content": "i love you my brother",
+      "category": "personal",
+      "date": "30/3/2022",
+      "id": 7
+    }
+  ]
+}

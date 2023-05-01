@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Inter:wght@100&family=Quicksand:wght@300&display=swap');
+
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--color);
+  font-family: "Quicksand";
+}
+:root {
+  --color: rgb(11, 15, 49);
+}
+button {
+  cursor: pointer;
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+  z-index: 2;
+  background: #ddd;
+}
+.content {
+  position: absolute;
+  top: 8vh;
+  width: 100%;
+  height: 92vh;
+  padding: 20px;
+}
+.home {
+  height: 80vh;
+}
+.note {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+}
+.note-list {
+  height: 80vh;
+  width: 100%;
+}
+.empty {
+  color: var(--color);
+  text-align: center;
+  margin-top: 40vh;
+}
+.note-list a {
+  text-decoration: none;
+  text-transform: capitalize;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.note-left-div {
+  position: relative;
+  padding: 10px 0;
+}
+.note hr {
+  position: absolute;
+  top: 0;
+  left: -15px;
+  height: 90%;
+  width: 10px;
+  background: rgb(255, 143, 51);
+  border: 0;
+}
+
+.footer-home {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 10vh;
+  box-shadow: 1px -3px 5px rgba(0,0,0,0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ddd;
+}
+.home-btn {
+  position: relative;
+  width: 70px;
+  height: 40px;
+  background: #fff;
+  border: 0;
+  outline: none;
+  box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.1);
+  font-size: 22px;
+}
+.add {
+  width: 8vh;
+  height: 8vh;
+  border-radius: 50%;
+  border: 0;
+  outline: none;
+  background: #fff;
+  font-size: 40px;
+  box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.1);
+}
+
+.create form {
+  width: 100%;
+  height: 70vh;
+  margin: 40px auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  font-size: 1.5rem;
+}
+.create label {
+  display: block;
+  margin-bottom: 10px;
+}
+.create input {
+  width: 100%;
+  height: 40px;
+  border: 0;
+  box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.1);
+  padding: 0 20px;
+  outline: none;
+}
+.create textarea {
+  width: 100%;
+  height: 150px;
+  border: 0;
+  box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.1);
+  padding: 20px;
+  outline: none;
+}
+.create .title, .create .note-content {
+  width: 80%;
+}
+.create select {
+  width: 40%;
+  height: 40px;
+  border: 0;
+  outline: none;
+  background-color: #fff;
+  box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.1);
+  padding: 0 5px;
+}
+.create button {
+  width: 40%;
+  height: 40px;
+  border: 0;
+  outline: none;
+  background-color: #fff;
+  box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.1);
+}
+
+.note-page {
+  min-height: 90vh;
+  padding: 20px 0;
+}
+.note-page div {
+  font-size: 30px;
+}
+.note-page footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #ddd;
+  box-shadow: 1px -3px 5px rgba(0,0,0,0.1);
+}
+.note-page button {
+  width: 80px;
+  height: 40px;
+  background: #fff;
+  border: 0;
+  outline: none;
+  box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.1);
+}
+
+.edit-note {
+  width: 100%;
+  padding-top: 20px;
+}
+.edit-note textarea {
+  width: 100%;
+  height: 80vh;
+  padding: 0px;
+  border: 0;
+  outline: none;
+  font-size: 30px;
+}
+.edit-note footer {
+  position: fixed;
+  bottom: 0;
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #ddd;
+}
+.edit-note footer button {
+  width: 100px;
+  height: 40px;
+  border: 0;
+  outline: none;
+  background-color: #fff;
+  box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.1);
+}
+
+.loading {
+  color: rgb(121, 117, 117);
+  text-align: center;
+  margin-top: 20px;
+  font-size: 30px;
+}
